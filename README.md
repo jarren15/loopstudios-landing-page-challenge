@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Loopstudios landing page solution
 
-## Getting Started
+This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### The challenge
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Users should be able to:
 
-## Learn More
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![](./screenshot_desktop.png)
+![](./screenshot_mobile.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+- Solution URL: [https://github.com/jarren15/loopstudios-landing-page-challenge](https://github.com/jarren15/loopstudios-landing-page-challenge)
+- Live Site URL: [https://loopstudios-landing-page-challenge-five.vercel.app/](https://loopstudios-landing-page-challenge-five.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My process
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Built with
+
+- Next.js
+- SCSS
+- Google Fonts
+- BEM & SMACSS Methodologies
+- Vercel
+
+### What I learned
+
+1. **Integrating Google Fonts in Next.js**  
+   I learned how to seamlessly integrate Google Fonts into a Next.js application.
+
+2. **Using SCSS in Next.js**  
+   I gained experience with styling Next.js applications using SCSS. This included configuring the project to support SCSS and taking advantage of its features like variables, nesting, and mixins to create cleaner and more maintainable styles.
+
+3. **Code Splitting in Next.js**  
+   I explored the power of code splitting within Next.js by leveraging its built-in folder structure.
+
+4. **Passing Data with Props**  
+   I learned the importance of using props to pass data between components in React. This made it easier to manage the flow of data and maintain reusability across the application.
+
+5. **Using React Hooks**  
+   I gained hands-on experience with React hooks, such as `useState` and `useEffect`, to manage state and lifecycle methods in functional components.
+
+6. **Deploying to Vercel**  
+   I successfully deployed the application to Vercel, which gave me practical experience with modern deployment workflows and introduced me to the benefits of serverless hosting and continuous deployment.
+
+### Continued development
+
+Moving forward, I aim to deepen my skills in styling with CSS Modules and styled-components, optimize font loading for better performance, and implement dynamic routing with API integration. I also plan to explore advanced state management techniques and focus on creating reusable, scalable components to enhance overall application architecture. Additionally, having deployed the project on Vercel, I'm interested in learning more about deployment workflows, performance monitoring, and CI/CD best practices.
+
+### Useful resources
+
+- [Next.js](https://nextjs.org/)
+- [Vercel](vercel.com)
+- [Google Fonts](https://fonts.google.com/)
+
+## Author
+
+- Website - [John Arren Novilla](https://jarrendevs.webflow.io/)
+- Frontend Mentor - [@jarren15](https://www.frontendmentor.io/profile/jarren15)
+- LinkedIn - [John Arren Novilla](https://www.linkedin.com/in/john-arren-novilla-bb815b160/)
