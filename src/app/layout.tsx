@@ -7,11 +7,13 @@ import Footer from "./_components/layout/Footer";
 const alata = Alata({
   weight: "400",
   variable: "--font-alata",
+  subsets: ["latin"],
 });
 
 const josefinSans = Josefin_Sans({
   weight: "300",
   variable: "--font-josefin-sans",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
